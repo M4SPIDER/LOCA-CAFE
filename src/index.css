@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Loca Cafe Theme Palettes - Berry Bistro is Default */
+:root, .theme-berry {
+  --color-bg: #FAF4F6;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F5E8EE;
+  --color-dark: #24111E;
+  --color-accent: #E05688;
+  --color-accent-hover: #C2386A;
+  --color-accent-light: #FCEBF1;
+  --color-accent-badge: #F8DCE7;
+  --color-text: #24111E;
+  --color-text-muted: #826372;
+  --color-border: #ECDCE2;
+}
+
+.theme-terracotta {
+  --color-bg: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F5EFEB;
+  --color-dark: #191614;
+  --color-accent: #E05D38;
+  --color-accent-hover: #C94C27;
+  --color-accent-light: #FCEEE9;
+  --color-accent-badge: #FFECE5;
+  --color-text: #191614;
+  --color-text-muted: #78716C;
+  --color-border: #ECE4DC;
+}
+
+.theme-emerald {
+  --color-bg: #F4F7F4;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #EAF0EC;
+  --color-dark: #12241A;
+  --color-accent: #2A6E50;
+  --color-accent-hover: #1E533C;
+  --color-accent-light: #E7F3EC;
+  --color-accent-badge: #DCEDE3;
+  --color-text: #12241A;
+  --color-text-muted: #597364;
+  --color-border: #DDE7E0;
+}
+
+.theme-caramel {
+  --color-bg: #FAF6F0;
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F3ECE2;
+  --color-dark: #241812;
+  --color-accent: #C97A3E;
+  --color-accent-hover: #B0652D;
+  --color-accent-light: #FBF0E6;
+  --color-accent-badge: #F5E5D5;
+  --color-text: #241812;
+  --color-text-muted: #7D6B5D;
+  --color-border: #EAE1D6;
+}
+
+.theme-midnight {
+  --color-bg: #0F0F12;
+  --color-surface: #1A1A20;
+  --color-surface-subtle: #24242C;
+  --color-dark: #070709;
+  --color-accent: #F59E0B;
+  --color-accent-hover: #D97706;
+  --color-accent-light: #2A2416;
+  --color-accent-badge: #362D1B;
+  --color-text: #F4F4F6;
+  --color-text-muted: #9CA3AF;
+  --color-border: #2D2D38;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
